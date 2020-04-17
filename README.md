@@ -1,0 +1,2 @@
+# sink
+A Sink interface
