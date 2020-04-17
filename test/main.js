@@ -1,7 +1,7 @@
 'use strict';
 
 const { test } = require('tap');
-const Sink = require('../');
+const Sink = require("..");
 
 test('Sink() - Object type', (t) => {
     const obj = new Sink();
