@@ -13,7 +13,7 @@ test('Sink() - Call .write() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.write();
-    }, /Method not implemented/, 'Should throw');
+    }, /Method is not implemented/, 'Should throw');
     t.end();
 });
 
@@ -21,7 +21,7 @@ test('Sink() - Call .read() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.read();
-    }, /Method not implemented/, 'Should throw');
+    }, /Method is not implemented/, 'Should throw');
     t.end();
 });
 
@@ -29,7 +29,7 @@ test('Sink() - Call .delete() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.delete();
-    }, /Method not implemented/, 'Should throw');
+    }, /Method is not implemented/, 'Should throw');
     t.end();
 });
 
@@ -37,7 +37,7 @@ test('Sink() - Call .exist() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.exist();
-    }, /Method not implemented/, 'Should throw');
+    }, /Method is not implemented/, 'Should throw');
     t.end();
 });
 
