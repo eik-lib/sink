@@ -6,6 +6,7 @@
   "files": [
     "CHANGELOG.md",
     "package.json",
+    "README.md",
     "lib"
   ],
   "scripts": {
