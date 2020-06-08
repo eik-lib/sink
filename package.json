@@ -1,6 +1,6 @@
 {
   "name": "@eik/sink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Sink interface",
   "main": "lib/main",
   "files": [
