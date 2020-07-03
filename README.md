@@ -93,6 +93,10 @@ const SinkCustom = class SinkCustom extends Sink {
         });
     }
 
+    get metrics() {
+        return // Custom metric stream code
+    }
+
     get [Symbol.toStringTag]() {
         return 'SinkCustom';
     }
