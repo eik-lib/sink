@@ -44,7 +44,7 @@ test('Sink() - Call .exist() method', (t) => {
 test('Sink() - Call .metrics getter', (t) => {
     const obj = new Sink();
     t.throws(() => {
-        obj.metrics;
+        const metric = obj.metrics; // eslint-disable-line no-unused-vars
     }, /.metrics getter is not implemented/, 'Should throw');
     t.end();
 });
