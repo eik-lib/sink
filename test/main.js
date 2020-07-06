@@ -41,6 +41,14 @@ test('Sink() - Call .exist() method', (t) => {
     t.end();
 });
 
+test('Sink() - Call .metrics getter', (t) => {
+    const obj = new Sink();
+    t.throws(() => {
+        const metric = obj.metrics; // eslint-disable-line no-unused-vars
+    }, /.metrics getter is not implemented/, 'Should throw');
+    t.end();
+});
+
 test('Sink() - Call .validateFilePath() with legal value', (t) => {
     t.equal(Sink.validateFilePath('foo'), 'foo', 'Should return value');
     t.end();
