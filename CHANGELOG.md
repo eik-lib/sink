@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/eik-lib/sink/compare/v1.0.2...v1.1.0) (2020-07-06)
+
+
+### Bug Fixes
+
+* lint love ([a5f3584](https://github.com/eik-lib/sink/commit/a5f358452b642cec36472850aae2ff1ca00b851a))
+
+
+### Features
+
+* Add .metrics getter ([69d3903](https://github.com/eik-lib/sink/commit/69d39039f962ba10f79999f17e9fbfdc81649d3a))
+
 ## [1.0.2](https://github.com/eik-lib/sink/compare/v1.0.1...v1.0.2) (2020-06-08)
 
 
