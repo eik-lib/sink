@@ -1,15 +1,13 @@
-'use strict';
+import tap from 'tap';
+import Sink from '../lib/main.js';
 
-const { test } = require('tap');
-const Sink = require("..");
-
-test('Sink() - Object type', (t) => {
+tap.test('Sink() - Object type', (t) => {
     const obj = new Sink();
     t.equal(Object.prototype.toString.call(obj), '[object Sink]', 'should be Sink');
     t.end();
 });
 
-test('Sink() - Call .write() method', (t) => {
+tap.test('Sink() - Call .write() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.write();
@@ -17,7 +15,7 @@ test('Sink() - Call .write() method', (t) => {
     t.end();
 });
 
-test('Sink() - Call .read() method', (t) => {
+tap.test('Sink() - Call .read() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.read();
@@ -25,7 +23,7 @@ test('Sink() - Call .read() method', (t) => {
     t.end();
 });
 
-test('Sink() - Call .delete() method', (t) => {
+tap.test('Sink() - Call .delete() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.delete();
@@ -33,7 +31,7 @@ test('Sink() - Call .delete() method', (t) => {
     t.end();
 });
 
-test('Sink() - Call .exist() method', (t) => {
+tap.test('Sink() - Call .exist() method', (t) => {
     const obj = new Sink();
     t.throws(() => {
         obj.exist();
@@ -41,7 +39,7 @@ test('Sink() - Call .exist() method', (t) => {
     t.end();
 });
 
-test('Sink() - Call .metrics getter', (t) => {
+tap.test('Sink() - Call .metrics getter', (t) => {
     const obj = new Sink();
     t.throws(() => {
         const metric = obj.metrics; // eslint-disable-line no-unused-vars
@@ -49,12 +47,12 @@ test('Sink() - Call .metrics getter', (t) => {
     t.end();
 });
 
-test('Sink() - Call .validateFilePath() with legal value', (t) => {
+tap.test('Sink() - Call .validateFilePath() with legal value', (t) => {
     t.equal(Sink.validateFilePath('foo'), 'foo', 'Should return value');
     t.end();
 });
 
-test('Sink() - Call .validateFilePath() with illegal values', (t) => {
+tap.test('Sink() - Call .validateFilePath() with illegal values', (t) => {
     t.throws(() => {
         Sink.validateFilePath();
         Sink.validateFilePath({});
@@ -64,19 +62,19 @@ test('Sink() - Call .validateFilePath() with illegal values', (t) => {
     t.end();
 });
 
-test('Sink() - Call .validateFilePath() with empty String value', (t) => {
+tap.test('Sink() - Call .validateFilePath() with empty String value', (t) => {
     t.throws(() => {
         Sink.validateFilePath('')
     }, /Argument can not be an empty String/, 'Should throw');
     t.end();
 });
 
-test('Sink() - Call .validateContentType() with legal value', (t) => {
+tap.test('Sink() - Call .validateContentType() with legal value', (t) => {
     t.equal(Sink.validateContentType('foo'), 'foo', 'Should return value');
     t.end();
 });
 
-test('Sink() - Call .validateContentType() with illegal values', (t) => {
+tap.test('Sink() - Call .validateContentType() with illegal values', (t) => {
     t.throws(() => {
         Sink.validateContentType();
         Sink.validateContentType({});
@@ -86,7 +84,7 @@ test('Sink() - Call .validateContentType() with illegal values', (t) => {
     t.end();
 });
 
-test('Sink() - Call .validateContentType() with empty String value', (t) => {
+tap.test('Sink() - Call .validateContentType() with empty String value', (t) => {
     t.throws(() => {
         Sink.validateContentType('')
     }, /Argument can not be an empty String/, 'Should throw');
