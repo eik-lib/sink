@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/eik-lib/sink/compare/v1.1.0...v1.2.0) (2022-01-07)
+
+
+### Features
+
+* Convert to ESM ([637ae57](https://github.com/eik-lib/sink/commit/637ae570043e4ea7038664d3196e9ac55b1404fb))
+
 # [1.1.0](https://github.com/eik-lib/sink/compare/v1.0.2...v1.1.0) (2020-07-06)
 
 
