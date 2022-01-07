@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/eik-lib/sink/compare/v1.2.0...v1.2.1) (2022-01-07)
+
+
+### Bug Fixes
+
+* No automatic extension resolution ([429a9b7](https://github.com/eik-lib/sink/commit/429a9b7d1a3fc9075b6c11ecf2135786e251a8bf))
+
 # [1.2.0](https://github.com/eik-lib/sink/compare/v1.1.0...v1.2.0) (2022-01-07)
 
 
