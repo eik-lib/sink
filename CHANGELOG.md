@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/eik-lib/sink/compare/v1.2.3...v1.2.4) (2024-07-23)
+
+
+### Bug Fixes
+
+* read should return ReadFile ([519fdf4](https://github.com/eik-lib/sink/commit/519fdf4c0de05a08193670001020ff56b7042d1d))
+
 ## [1.2.3](https://github.com/eik-lib/sink/compare/v1.2.2...v1.2.3) (2024-07-23)
 
 
