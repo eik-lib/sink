@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/eik-lib/sink/compare/v1.2.4...v1.2.5) (2024-07-23)
+
+
+### Bug Fixes
+
+* type .metrics to return MetricsClient ([1bf0e9a](https://github.com/eik-lib/sink/commit/1bf0e9a50e9508330afcf70ac0a498911920936c))
+
 ## [1.2.4](https://github.com/eik-lib/sink/compare/v1.2.3...v1.2.4) (2024-07-23)
 
 
