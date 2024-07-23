@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/eik-lib/sink/compare/v1.2.1...v1.2.2) (2024-07-23)
+
+
+### Bug Fixes
+
+* include type definitions ([#186](https://github.com/eik-lib/sink/issues/186)) ([f0e087a](https://github.com/eik-lib/sink/commit/f0e087a6eb58758cd6448221bcf66fe3733ea4ad))
+
 ## [1.2.1](https://github.com/eik-lib/sink/compare/v1.2.0...v1.2.1) (2022-01-07)
 
 
