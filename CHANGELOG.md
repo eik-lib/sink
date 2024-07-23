@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/eik-lib/sink/compare/v1.2.2...v1.2.3) (2024-07-23)
+
+
+### Bug Fixes
+
+* drop the generic in favor of readable, writable ([2fb4e67](https://github.com/eik-lib/sink/commit/2fb4e674182d012d36e042a278a8927bfc541fdd))
+
 ## [1.2.2](https://github.com/eik-lib/sink/compare/v1.2.1...v1.2.2) (2024-07-23)
 
 
