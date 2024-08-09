@@ -13,13 +13,13 @@
     "types"
   ],
   "scripts": {
-    "clean": "rimraf node_modules",
+    "clean": "rimraf .tap node_modules types",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "test": "run-s test:*",
-    "test:unit": "tap --disable-coverage --allow-empty-coverage tests/**/*.js",
-    "test:types": "tsc --project tsconfig.test.json",
-    "types": "tsc --declaration --emitDeclarationOnly"
+    "test": "tap --disable-coverage --allow-empty-coverage tests/**/*.js",
+    "types": "run-s types:module types:test",
+    "types:module": "tsc",
+    "types:test": "tsc --project tsconfig.test.json"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
   "devDependencies": {
     "@eik/common": "3.0.1",
     "@eik/eslint-config": "1.0.2",
+    "@eik/prettier-config": "1.0.1",
     "@eik/semantic-release-config": "1.0.0",
     "@metrics/client": "2.5.3",
     "eslint": "9.8.0",
