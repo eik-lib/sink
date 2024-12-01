@@ -36,7 +36,7 @@
     "@eik/eslint-config": "1.0.5",
     "@eik/prettier-config": "1.0.1",
     "@eik/semantic-release-config": "1.0.0",
-    "@metrics/client": "2.5.3",
+    "@metrics/client": "2.5.4",
     "eslint": "9.13.0",
     "npm-run-all2": "5.0.2",
     "prettier": "3.3.3",
