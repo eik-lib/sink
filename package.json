@@ -32,17 +32,17 @@
   },
   "homepage": "https://github.com/eik-lib/sink#readme",
   "devDependencies": {
-    "@eik/common": "3.0.1",
+    "@eik/common": "5.1.11",
     "@eik/eslint-config": "1.0.23",
     "@eik/prettier-config": "1.0.1",
-    "@eik/semantic-release-config": "1.0.9",
+    "@eik/semantic-release-config": "1.0.10",
     "@metrics/client": "2.5.5",
     "eslint": "9.39.1",
-    "npm-run-all2": "5.0.2",
-    "prettier": "3.7.3",
-    "rimraf": "6.0.1",
-    "semantic-release": "24.2.9",
-    "tap": "18.8.0",
-    "typescript": "5.5.4"
+    "npm-run-all2": "8.0.4",
+    "prettier": "3.7.4",
+    "rimraf": "6.1.2",
+    "semantic-release": "25.0.2",
+    "tap": "21.5.0",
+    "typescript": "5.9.3"
   }
 }
