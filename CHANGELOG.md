@@ -1,3 +1,11 @@
+## [1.2.6](https://github.com/eik-lib/sink/compare/v1.2.5...v1.2.6) (2026-05-27)
+
+
+### Bug Fixes
+
+* Bump dependencies ([6f9d9d0](https://github.com/eik-lib/sink/commit/6f9d9d0aad7b1cedf57ab6911f7b3a21eaf57b7b))
+* Bumped dependencies ([731f7d9](https://github.com/eik-lib/sink/commit/731f7d9b7ab07387d47665d1bb2c394098be1d9c))
+
 ## [1.2.5](https://github.com/eik-lib/sink/compare/v1.2.4...v1.2.5) (2024-07-23)
 
 
