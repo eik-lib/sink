@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/eik-lib/sink/compare/v1.2.6...v1.2.7) (2026-05-28)
+
+
+### Bug Fixes
+
+* Replace Tap with node.js test runner ([dd34451](https://github.com/eik-lib/sink/commit/dd3445115d59018c2ed49cce6c8e170d919798db))
+
 ## [1.2.6](https://github.com/eik-lib/sink/compare/v1.2.5...v1.2.6) (2026-05-27)
 
 
