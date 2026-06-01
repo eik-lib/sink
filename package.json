@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/eik-lib/sink#readme",
   "devDependencies": {
-    "@eik/common": "5.1.28",
-    "@eik/eslint-config": "2.0.6",
+    "@eik/common": "5.1.30",
+    "@eik/eslint-config": "2.0.7",
     "@eik/prettier-config": "1.0.2",
     "@eik/semantic-release-config": "1.0.17",
     "@metrics/client": "2.5.5",
