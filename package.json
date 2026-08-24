@@ -1,6 +1,6 @@
 {
   "name": "@eik/sink",
-  "version": "1.2.7",
+  "version": "1.3.0",
   "description": "A Sink interface",
   "main": "lib/main.js",
   "types": "types/main.d.ts",
