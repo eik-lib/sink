@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/eik-lib/sink/compare/v1.3.0...v1.4.0) (2026-08-25)
+
+
+### Features
+
+* add writeBuffer() and readBuffer() to sink contract ([d7bea8e](https://github.com/eik-lib/sink/commit/d7bea8e9668b6208bc422fe90d9412386b6d33c1))
+
 # [1.3.0](https://github.com/eik-lib/sink/compare/v1.2.7...v1.3.0) (2026-08-24)
 
 
